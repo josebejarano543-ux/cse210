@@ -1,0 +1,15 @@
+/Users/josebejarano/Desktop/cse210/week03/ScriptureMemorizer/bin/Debug/net10.0/ScriptureMemorizer
+/Users/josebejarano/Desktop/cse210/week03/ScriptureMemorizer/bin/Debug/net10.0/ScriptureMemorizer.deps.json
+/Users/josebejarano/Desktop/cse210/week03/ScriptureMemorizer/bin/Debug/net10.0/ScriptureMemorizer.runtimeconfig.json
+/Users/josebejarano/Desktop/cse210/week03/ScriptureMemorizer/bin/Debug/net10.0/ScriptureMemorizer.dll
+/Users/josebejarano/Desktop/cse210/week03/ScriptureMemorizer/bin/Debug/net10.0/ScriptureMemorizer.pdb
+/Users/josebejarano/Desktop/cse210/week03/ScriptureMemorizer/obj/Debug/net10.0/ScriptureMemorizer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/josebejarano/Desktop/cse210/week03/ScriptureMemorizer/obj/Debug/net10.0/ScriptureMemorizer.AssemblyInfoInputs.cache
+/Users/josebejarano/Desktop/cse210/week03/ScriptureMemorizer/obj/Debug/net10.0/ScriptureMemorizer.AssemblyInfo.cs
+/Users/josebejarano/Desktop/cse210/week03/ScriptureMemorizer/obj/Debug/net10.0/ScriptureMemorizer.csproj.CoreCompileInputs.cache
+/Users/josebejarano/Desktop/cse210/week03/ScriptureMemorizer/obj/Debug/net10.0/ScriptureMemorizer.sourcelink.json
+/Users/josebejarano/Desktop/cse210/week03/ScriptureMemorizer/obj/Debug/net10.0/ScriptureMemorizer.dll
+/Users/josebejarano/Desktop/cse210/week03/ScriptureMemorizer/obj/Debug/net10.0/refint/ScriptureMemorizer.dll
+/Users/josebejarano/Desktop/cse210/week03/ScriptureMemorizer/obj/Debug/net10.0/ScriptureMemorizer.pdb
+/Users/josebejarano/Desktop/cse210/week03/ScriptureMemorizer/obj/Debug/net10.0/ScriptureMemorizer.genruntimeconfig.cache
+/Users/josebejarano/Desktop/cse210/week03/ScriptureMemorizer/obj/Debug/net10.0/ref/ScriptureMemorizer.dll

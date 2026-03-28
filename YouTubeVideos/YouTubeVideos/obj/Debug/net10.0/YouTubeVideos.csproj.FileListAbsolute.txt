@@ -1,0 +1,14 @@
+/Users/josebejarano/Desktop/YouTubeVideos/YouTubeVideos/bin/Debug/net10.0/YouTubeVideos
+/Users/josebejarano/Desktop/YouTubeVideos/YouTubeVideos/bin/Debug/net10.0/YouTubeVideos.deps.json
+/Users/josebejarano/Desktop/YouTubeVideos/YouTubeVideos/bin/Debug/net10.0/YouTubeVideos.runtimeconfig.json
+/Users/josebejarano/Desktop/YouTubeVideos/YouTubeVideos/bin/Debug/net10.0/YouTubeVideos.dll
+/Users/josebejarano/Desktop/YouTubeVideos/YouTubeVideos/bin/Debug/net10.0/YouTubeVideos.pdb
+/Users/josebejarano/Desktop/YouTubeVideos/YouTubeVideos/obj/Debug/net10.0/YouTubeVideos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/josebejarano/Desktop/YouTubeVideos/YouTubeVideos/obj/Debug/net10.0/YouTubeVideos.AssemblyInfoInputs.cache
+/Users/josebejarano/Desktop/YouTubeVideos/YouTubeVideos/obj/Debug/net10.0/YouTubeVideos.AssemblyInfo.cs
+/Users/josebejarano/Desktop/YouTubeVideos/YouTubeVideos/obj/Debug/net10.0/YouTubeVideos.csproj.CoreCompileInputs.cache
+/Users/josebejarano/Desktop/YouTubeVideos/YouTubeVideos/obj/Debug/net10.0/YouTubeVideos.dll
+/Users/josebejarano/Desktop/YouTubeVideos/YouTubeVideos/obj/Debug/net10.0/refint/YouTubeVideos.dll
+/Users/josebejarano/Desktop/YouTubeVideos/YouTubeVideos/obj/Debug/net10.0/YouTubeVideos.pdb
+/Users/josebejarano/Desktop/YouTubeVideos/YouTubeVideos/obj/Debug/net10.0/YouTubeVideos.genruntimeconfig.cache
+/Users/josebejarano/Desktop/YouTubeVideos/YouTubeVideos/obj/Debug/net10.0/ref/YouTubeVideos.dll

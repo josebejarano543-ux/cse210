@@ -1,0 +1,15 @@
+/Users/josebejarano/Desktop/cse210/week04/OnlineOrdering/bin/Debug/net10.0/OnlineOrdering
+/Users/josebejarano/Desktop/cse210/week04/OnlineOrdering/bin/Debug/net10.0/OnlineOrdering.deps.json
+/Users/josebejarano/Desktop/cse210/week04/OnlineOrdering/bin/Debug/net10.0/OnlineOrdering.runtimeconfig.json
+/Users/josebejarano/Desktop/cse210/week04/OnlineOrdering/bin/Debug/net10.0/OnlineOrdering.dll
+/Users/josebejarano/Desktop/cse210/week04/OnlineOrdering/bin/Debug/net10.0/OnlineOrdering.pdb
+/Users/josebejarano/Desktop/cse210/week04/OnlineOrdering/obj/Debug/net10.0/OnlineOrdering.GeneratedMSBuildEditorConfig.editorconfig
+/Users/josebejarano/Desktop/cse210/week04/OnlineOrdering/obj/Debug/net10.0/OnlineOrdering.AssemblyInfoInputs.cache
+/Users/josebejarano/Desktop/cse210/week04/OnlineOrdering/obj/Debug/net10.0/OnlineOrdering.AssemblyInfo.cs
+/Users/josebejarano/Desktop/cse210/week04/OnlineOrdering/obj/Debug/net10.0/OnlineOrdering.csproj.CoreCompileInputs.cache
+/Users/josebejarano/Desktop/cse210/week04/OnlineOrdering/obj/Debug/net10.0/OnlineOrdering.sourcelink.json
+/Users/josebejarano/Desktop/cse210/week04/OnlineOrdering/obj/Debug/net10.0/OnlineOrdering.dll
+/Users/josebejarano/Desktop/cse210/week04/OnlineOrdering/obj/Debug/net10.0/refint/OnlineOrdering.dll
+/Users/josebejarano/Desktop/cse210/week04/OnlineOrdering/obj/Debug/net10.0/OnlineOrdering.pdb
+/Users/josebejarano/Desktop/cse210/week04/OnlineOrdering/obj/Debug/net10.0/OnlineOrdering.genruntimeconfig.cache
+/Users/josebejarano/Desktop/cse210/week04/OnlineOrdering/obj/Debug/net10.0/ref/OnlineOrdering.dll

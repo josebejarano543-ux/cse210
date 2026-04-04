@@ -11,16 +11,17 @@ public class Activity
     {
         _name = name;
         _description = description;
-    }
-
-    public void SetDuration(int duration)
-    {
-        _duration = duration;
+        _duration = 0;
     }
 
     public int GetDuration()
     {
         return _duration;
+    }
+
+    public void SetDuration(int duration)
+    {
+        _duration = duration;
     }
 
     public void DisplayStartingMessage()
@@ -33,29 +34,29 @@ public class Activity
         int duration = int.Parse(Console.ReadLine());
         SetDuration(duration);
 
-        Console.WriteLine("\nGet ready...");
+        Console.WriteLine("\nGet ready to begin...");
         ShowSpinner(3);
     }
 
     public void DisplayEndingMessage()
     {
-        Console.WriteLine("\nGood job!");
+        Console.WriteLine("\nWell done!!");
         ShowSpinner(3);
 
-        Console.WriteLine($"\nYou completed {_duration} seconds of the {_name} Activity.");
+        Console.WriteLine($"\nYou have completed another {_duration} seconds of the {_name} Activity.");
         ShowSpinner(3);
     }
 
     public void ShowSpinner(int seconds)
     {
         string[] spinner = { "|", "/", "-", "\\" };
-        DateTime end = DateTime.Now.AddSeconds(seconds);
+        DateTime endTime = DateTime.Now.AddSeconds(seconds);
         int i = 0;
 
-        while (DateTime.Now < end)
+        while (DateTime.Now < endTime)
         {
             Console.Write(spinner[i]);
-            Thread.Sleep(200);
+            Thread.Sleep(250);
             Console.Write("\b \b");
             i = (i + 1) % spinner.Length;
         }

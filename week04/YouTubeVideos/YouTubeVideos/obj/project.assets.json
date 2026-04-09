@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/josebejarano/Desktop/YouTubeVideos/YouTubeVideos/YouTubeVideos.csproj",
+      "projectUniqueName": "/Users/josebejarano/Desktop/cse210/week04/YouTubeVideos/YouTubeVideos/YouTubeVideos.csproj",
       "projectName": "YouTubeVideos",
-      "projectPath": "/Users/josebejarano/Desktop/YouTubeVideos/YouTubeVideos/YouTubeVideos.csproj",
+      "projectPath": "/Users/josebejarano/Desktop/cse210/week04/YouTubeVideos/YouTubeVideos/YouTubeVideos.csproj",
       "packagesPath": "/Users/josebejarano/.nuget/packages/",
-      "outputPath": "/Users/josebejarano/Desktop/YouTubeVideos/YouTubeVideos/obj/",
+      "outputPath": "/Users/josebejarano/Desktop/cse210/week04/YouTubeVideos/YouTubeVideos/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/josebejarano/.nuget/NuGet/NuGet.Config"

@@ -24,7 +24,7 @@ public class GoalManager
             Console.WriteLine("6. Quit");
 
             Console.Write("Select a choice: ");
-            choice = int.Parse(Console.ReadLine());
+            choice = ReadInt();
 
             switch (choice)
             {
@@ -43,8 +43,25 @@ public class GoalManager
                 case 5:
                     RecordEvent();
                     break;
+                case 6:
+                    Console.WriteLine("Goodbye!");
+                    break;
+                default:
+                    Console.WriteLine("Invalid option.");
+                    break;
             }
         }
+    }
+
+    private string ReadString()
+    {
+        return Console.ReadLine() ?? "";
+    }
+
+    private int ReadInt()
+    {
+        string input = Console.ReadLine() ?? "0";
+        return int.Parse(input);
     }
 
     private void CreateGoal()
@@ -54,16 +71,16 @@ public class GoalManager
         Console.WriteLine("3. Checklist Goal");
 
         Console.Write("Choose type: ");
-        string type = Console.ReadLine();
+        string type = ReadString();
 
         Console.Write("Name: ");
-        string name = Console.ReadLine();
+        string name = ReadString();
 
         Console.Write("Description: ");
-        string desc = Console.ReadLine();
+        string desc = ReadString();
 
         Console.Write("Points: ");
-        int points = int.Parse(Console.ReadLine());
+        int points = ReadInt();
 
         if (type == "1")
         {
@@ -76,17 +93,27 @@ public class GoalManager
         else if (type == "3")
         {
             Console.Write("Target count: ");
-            int target = int.Parse(Console.ReadLine());
+            int target = ReadInt();
 
             Console.Write("Bonus: ");
-            int bonus = int.Parse(Console.ReadLine());
+            int bonus = ReadInt();
 
             _goals.Add(new ChecklistGoal(name, desc, points, target, bonus));
+        }
+        else
+        {
+            Console.WriteLine("Invalid goal type.");
         }
     }
 
     private void ListGoals()
     {
+        if (_goals.Count == 0)
+        {
+            Console.WriteLine("No goals available.");
+            return;
+        }
+
         for (int i = 0; i < _goals.Count; i++)
         {
             Console.WriteLine($"{i + 1}. {_goals[i].GetStatus()}");
@@ -95,20 +122,33 @@ public class GoalManager
 
     private void RecordEvent()
     {
+        if (_goals.Count == 0)
+        {
+            Console.WriteLine("No goals available.");
+            return;
+        }
+
         ListGoals();
         Console.Write("Which goal? ");
-        int index = int.Parse(Console.ReadLine()) - 1;
+        int index = ReadInt() - 1;
+
+        if (index < 0 || index >= _goals.Count)
+        {
+            Console.WriteLine("Invalid goal number.");
+            return;
+        }
 
         int points = _goals[index].RecordEvent();
         _score += points;
 
         Console.WriteLine($"You earned {points} points!");
+        Console.WriteLine($"Total score: {_score}");
     }
 
     private void SaveGoals()
     {
         Console.Write("Filename: ");
-        string file = Console.ReadLine();
+        string file = ReadString();
 
         using (StreamWriter writer = new StreamWriter(file))
         {
@@ -119,12 +159,20 @@ public class GoalManager
                 writer.WriteLine(g.GetStringRepresentation());
             }
         }
+
+        Console.WriteLine("Goals saved successfully.");
     }
 
     private void LoadGoals()
     {
         Console.Write("Filename: ");
-        string file = Console.ReadLine();
+        string file = ReadString();
+
+        if (!File.Exists(file))
+        {
+            Console.WriteLine("File not found.");
+            return;
+        }
 
         string[] lines = File.ReadAllLines(file);
 
@@ -157,5 +205,7 @@ public class GoalManager
                 ));
             }
         }
+
+        Console.WriteLine("Goals loaded successfully.");
     }
 }
